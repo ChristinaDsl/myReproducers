@@ -5,8 +5,8 @@ import java.util.List;
 public class Info {
 
     public Integer id;
-    public String lastName;
+    public String name;
     public String shortName;
-    public List<String> creditCards;
+    public List<String> keywords;
 
 }

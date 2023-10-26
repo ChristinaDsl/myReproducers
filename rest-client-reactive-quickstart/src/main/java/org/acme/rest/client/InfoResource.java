@@ -10,11 +10,11 @@ import java.util.Set;
 public class InfoResource {
 
     @RestClient
-    InfosService infosService;
+    InfoService infoService;
 
     @GET
     @Path("/id/{id}")
     public Set<Info> id(Integer id) {
-        return infosService.getById(id);
+        return infoService.getById(id);
     }
 }
